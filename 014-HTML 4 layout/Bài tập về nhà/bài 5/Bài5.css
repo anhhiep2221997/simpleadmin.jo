@@ -1,0 +1,10 @@
+div{
+    background-image: url("../hinh-nen-dep-ve-thanh-pho-new-york-20.jpg"),
+    url("../../../CSS background/img/2a3acb91a35d45e1b4b7c96912a0c84a.png");
+    width: 1200px;
+    height: 500px;
+    padding: 55px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
