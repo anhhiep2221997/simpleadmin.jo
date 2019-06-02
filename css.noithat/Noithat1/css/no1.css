@@ -10,7 +10,7 @@ body{
 }
 .menu_top ul{
     margin: 0;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 .menu_top ul .active{
     font-size: 30px;
@@ -30,15 +30,33 @@ body{
     height: 40px;
     line-height: 40px;
     color: black;
-    padding: 0 20px 0 20px;
+    padding: 0 18px 0 18px;
 
+}
+.menu_top span{
+    height: 40px;
+    line-height: 40px;
+}
+.menu_top ul li a:hover{
+    background: #bbbbbb;
+}
+.menu_top ul li >.submenu{
+    display: none;
+    position: absolute;
+
+}
+.menu_top ul li:hover .submenu{
+    display: block;
+}
+.menu_top ul li .submenu{
+    background: blue;
 }
 
 
 
 .banner img{
     width: 100%;
-    height: 520px;}
+    height: 550px;}
 
 .banner{
     position: relative;
@@ -156,9 +174,8 @@ body{
 }
 
 .box{
-    background: aliceblue;
+    background: white;
     width: 100%;
-    height: 300px;
 }
 .box h3{
     text-align: center;
@@ -170,7 +187,7 @@ body{
 .footer{
     height: 300px;
     width: 100%;
-    background: #bbbbbb;
+    background: #bbbbbb url("../img/footer.jpg");
 
 
 }
